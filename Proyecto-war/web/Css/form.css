@@ -1,0 +1,88 @@
+html, body {
+margin:auto;
+height:100%;
+}
+div#todo{
+width:80%;
+margin: auto;
+height:100%;
+}
+div#principal{
+margin-bottom:auto;
+width: 100%;
+Float: left;
+color: yellow;
+background-color: grey;
+height:15%;
+}
+div#titulo{
+margin-bottom:auto;
+width: 100%;
+Float: left;
+color: white;
+background-color: grey;
+height:16%;
+}
+div#titulo2{
+margin-bottom:auto;
+width: 100%;
+Float: left;
+color: white;
+background-color: grey;
+height:16%;
+}
+div#formulario{
+margin: auto;
+background-color: lightgrey;
+margin-top: 10%;
+Float: center;
+height:60%;
+}
+div#formulario2{
+margin: auto;
+background-color: lightgrey;
+margin-top: 10%;
+Float: center;
+height:50%;
+}
+#rest{
+display: incline-block;
+margin: auto;
+}
+label {
+display: incline-block;
+margin: auto;
+}
+div#parte1{
+Float: left;
+width: 60%;
+}
+div#parte2{
+Float: right;
+width: 40%;
+}
+@media screen and(min-width: 961px){
+html,body{
+	font-size:100%;
+}	
+input, textarea, select{
+	width:80%;
+	font-size:100%;
+}
+input.btn{
+	width:20%;
+}
+}
+@media screen and(max-width: 960px){
+html,body{
+	font-size:80%;
+}	
+input, textarea, select{
+	width:80%;
+	font-size:95%;
+}
+input.btn{
+	width:20%;
+}
+}
+
